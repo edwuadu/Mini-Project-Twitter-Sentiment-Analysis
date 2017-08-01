@@ -8,6 +8,7 @@ This mini project involves calling tweets from the twitter api that contains a c
 If you haven't already downloaded the tweepy and TextBlob dependencies, do so by inputting the following in the terminal:  
 pip install tweepy  
 pip install textblob  
+We use tweepy to access the twitter API and then use textblob to perform sentiment analysis
 
 ## Code
 Now we can import them in the beginning of our code. We also import csv because we are writing our results to a csv file.  
@@ -53,7 +54,7 @@ with open('twitter_sentiment.csv', 'w') as file:
 				sent.writerow(['This tweet is Negative'])
 			sent.writerow([])
 ```
-## Results
+## Results(truncated because too many tweets)
 @bsblcardvandals @realDonaldTrump @GOP I have no idea how you guys continually find such magic in prosaic sports cards. Love it.  
 "Sentiment(polarity=0.3333333333333333, subjectivity=0.7000000000000001)"  
 This tweet is Positive
