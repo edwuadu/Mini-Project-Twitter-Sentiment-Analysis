@@ -53,4 +53,5 @@ with open('twitter_sentiment.csv', 'w') as file:
 				sent.writerow(['This tweet is Negative'])
 			sent.writerow([])
 ```
-
+  
+csvtomd twitter_sentiment.csv
