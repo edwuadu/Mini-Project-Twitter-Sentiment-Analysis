@@ -5,7 +5,7 @@
 This mini project involves calling tweets from the twitter api that contains a chosen keyword. We then perform rudimentary sentiment analysis on these tweets returning whether the tweet is positive or negative into a csv file along with the tweets.  
 
 ## Dependencies
-If you haven't already downloaded the tweepy and TextBlob dependencies, do so by inputting the following in the terminal:
+If you haven't already downloaded the tweepy and TextBlob dependencies, do so by inputting the following in the terminal:  
 pip install tweepy  
 pip install textblob  
 
@@ -54,69 +54,68 @@ with open('twitter_sentiment.csv', 'w') as file:
 			sent.writerow([])
 ```
 ## Results
-@bsblcardvandals @realDonaldTrump @GOP I have no idea how you guys continually find such magic in prosaic sports cards. Love it.
-"Sentiment(polarity=0.3333333333333333, subjectivity=0.7000000000000001)"
+@bsblcardvandals @realDonaldTrump @GOP I have no idea how you guys continually find such magic in prosaic sports cards. Love it.  
+"Sentiment(polarity=0.3333333333333333, subjectivity=0.7000000000000001)"  
 This tweet is Positive
 
-@realDonaldTrump You resigned???
-"Sentiment(polarity=0.0, subjectivity=0.0)"
+@realDonaldTrump You resigned???  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
 This tweet is Neutral
 
-"RT @funder: .@realDonaldTrump-
+"RT @funder: .@realDonaldTrump-  
 Please don't make us have #SignSanctionsBill trend. Sign the bill. What In the world are u waiting for?
+#T…"  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
+This tweet is Neutral  
 
-#T…"
-"Sentiment(polarity=0.0, subjectivity=0.0)"
-This tweet is Neutral
+RT @peplamb: @realDonaldTrump #GOD protect our #Nation #RedeemerLives 🙏❤️💖 #OneNationUnderGOD https://t.co/FBr863h5f5  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
+This tweet is Neutral  
 
-RT @peplamb: @realDonaldTrump #GOD protect our #Nation #RedeemerLives 🙏❤️💖 #OneNationUnderGOD https://t.co/FBr863h5f5
-"Sentiment(polarity=0.0, subjectivity=0.0)"
-This tweet is Neutral
+"@realDonaldTrump Let Ryan and McConnell Understand, This is A Vote that Must and Will Go Through!! No Matter What !!"  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
+This tweet is Neutral  
 
-"@realDonaldTrump Let Ryan and McConnell Understand, This is A Vote that Must and Will Go Through!! No Matter What !!"
-"Sentiment(polarity=0.0, subjectivity=0.0)"
-This tweet is Neutral
-
-"RT @tomricks1: @realDonaldTrump Sure, if you're deranged."
-"Sentiment(polarity=0.5, subjectivity=0.8888888888888888)"
+"RT @tomricks1: @realDonaldTrump Sure, if you're deranged."  
+"Sentiment(polarity=0.5, subjectivity=0.8888888888888888)"  
 This tweet is Positive
 
-RT @realDonaldTrump: A great day at the White House!
-"Sentiment(polarity=0.4, subjectivity=0.375)"
+RT @realDonaldTrump: A great day at the White House!  
+"Sentiment(polarity=0.4, subjectivity=0.375)"  
 This tweet is Positive
 
-@realDonaldTrump Another round of people getting fired . no real direction for the West Wing.... You call this great ? Get together
-"Sentiment(polarity=0.16666666666666666, subjectivity=0.4833333333333334)"
+@realDonaldTrump Another round of people getting fired . no real direction for the West Wing.... You call this great ? Get together  
+"Sentiment(polarity=0.16666666666666666, subjectivity=0.4833333333333334)"  
 This tweet is Positive
 
-RT @realDonaldTrump: A great day at the White House!
-"Sentiment(polarity=0.4, subjectivity=0.375)"
+RT @realDonaldTrump: A great day at the White House!  
+"Sentiment(polarity=0.4, subjectivity=0.375)"  
 This tweet is Positive
 
-@realDonaldTrump Time to start acting presidential #fakeituntilumakeit
-"Sentiment(polarity=0.0, subjectivity=0.0)"
+@realDonaldTrump Time to start acting presidential #fakeituntilumakeit  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
 This tweet is Neutral
 
 "RT @Harlan: How long before @LindseyGrahamSC stabs General Kelly &amp; @realDonaldTrump in the back?
 This week for sure.
-#DrainTheSwamp #MAGA…"
-"Sentiment(polarity=0.125, subjectivity=0.4472222222222222)"
+#DrainTheSwamp #MAGA…"  
+"Sentiment(polarity=0.125, subjectivity=0.4472222222222222)"  
 This tweet is Positive
 
-@realDonaldTrump Why does Jared still have security clearance? Why haven't you resigned yet?  What shade of orange… https://t.co/37qslCunj4
-"Sentiment(polarity=0.0, subjectivity=0.0)"
+@realDonaldTrump Why does Jared still have security clearance? Why haven't you resigned yet?  What shade of orange… https://t.co/37qslCunj4  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
 This tweet is Neutral
 
-@JacobAWohl @realDonaldTrump Inaugural Address suggests otherwise.
-"Sentiment(polarity=0.0, subjectivity=0.0)"
+@JacobAWohl @realDonaldTrump Inaugural Address suggests otherwise.  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
 This tweet is Neutral
 
-@realDonaldTrump No one believes anything you say
-"Sentiment(polarity=0.0, subjectivity=0.0)"
+@realDonaldTrump No one believes anything you say  
+"Sentiment(polarity=0.0, subjectivity=0.0)"  
 This tweet is Neutral
 
-"@HSahinen @revndm @LindseyGrahamSC @realDonaldTrump Well,  he was lawfully elected in a bitter contest.  The Left t… https://t.co/zVzA5YbcZD"
-"Sentiment(polarity=-0.03333333333333333, subjectivity=0.16666666666666666)"
+"@HSahinen @revndm @LindseyGrahamSC @realDonaldTrump Well,  he was lawfully elected in a bitter contest.  The Left t… https://t.co/zVzA5YbcZD"  
+"Sentiment(polarity=-0.03333333333333333, subjectivity=0.16666666666666666)"  
 This tweet is Negative
 
 ## Conclusion
